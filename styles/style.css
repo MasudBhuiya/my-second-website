@@ -32,17 +32,13 @@ nav li{
  header banner 
  ------------------*/
 .banner{
-    margin-left: 600px;
-    
-    align-items: center;
+    text-align: center;
 }
 .banner-title{
     font-size: 45px;
     font-weight: 700;
 }
-.banner-description{
-    width: 400px;
-}
+
 .button-primary{
    
     padding:15px 25px ;
@@ -55,9 +51,12 @@ nav li{
     background-color: #FF900E;
 }
 
- .first-image{
-    width:1000px; 
-    margin: 50px 240px;
+ header img{
+   margin: 40px 200px;
+   width: 1100px;
+   
+   
+    
     
     
 }
@@ -65,6 +64,7 @@ nav li{
  main section 
  ----------------*/
  .main{
+    margin-top: 50px;
     justify-content: space-evenly;
     display: flex;
     
@@ -228,22 +228,20 @@ section img{
     .banner-description{
         width: 400px;
     }
-    nav img{
-        
-        width:100px; 
+
+    header img{
        
-       
+        margin: 40px 0px;
         
+        width:330px;
     }
 
     .main-title{
-        
         grid-template-columns: repeat(1, 1fr);
     }
     .main, 
-    .section-title,
-     .websites, 
-     .section-title {
+     .websites 
+     {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     }
@@ -263,11 +261,12 @@ section img{
         height: 200px
     }
     .third-image img {
-        width: 100%;
+       
         width: 350px;
         height: 500px;
     }
      .aside-sub-title{
+        text-align: center;
         width: 300px;
         margin-left: 0;
         margin-top: 10px;
@@ -279,8 +278,16 @@ section img{
     .button-sub-primary{
         margin: 0px;
     }
-     .first-image{
-        display: none;
-     }
+    .section-title {
+        grid-column-gap: 20px;
+        display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    }
+    .websites{
+        text-align: center;
+        grid-row-gap: 20px;
+    }
+     
+
      
   }
