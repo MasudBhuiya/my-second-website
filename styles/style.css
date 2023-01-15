@@ -1,3 +1,4 @@
+
 /* Body styles */
 body{
     align-items: center;
@@ -43,6 +44,7 @@ nav li{
     width: 400px;
 }
 .button-primary{
+   
     padding:15px 25px ;
     border: 0;
     font-weight: 700;
@@ -53,11 +55,10 @@ nav li{
     background-color: #FF900E;
 }
 
-.first-image{
+ .first-image{
     width:1000px; 
     margin: 50px 240px;
-    align-items: center;
-    justify-content: center;
+    
     
 }
 /*----------------
@@ -112,18 +113,20 @@ nav li{
  .aside-sub-title{
     margin-left: 20px;
     margin-bottom: 50px;
-    font-size: 35px;
+    font-size: 45px;
     font-weight: 700;
  }
  .lists{
     margin: 30px;
     padding: 10px;
     padding-bottom: 2px;
-    background-color:rgb(242, 250, 251);
+    border-radius: 5px;
+    box-shadow:0 0 2px silver;
+    background-color:rgb(250, 250, 248);
 }
 aside img{
     margin-top: 50px;
-    height: 750px;
+    height: 820px;
     width: 500px;
 }
 .button-sub-primary{
@@ -155,7 +158,7 @@ aside button{
     text-align: center;
  }
  .fourth-sub-title{
-    font-size: 35px;
+    font-size: 45px;
     font-weight: 700;
  }
 section img{
@@ -194,3 +197,90 @@ section img{
     display: flex;
     justify-content: space-evenly;
  }
+ .last{
+    border-radius: 5px;
+    margin:80px 60px 20px;
+    background-color:#FFF4E7;
+ }
+ .last p{
+    
+    padding:  25px;
+    text-align: center;
+ }
+ /*-------------------
+  Media quaries 
+  -------------------*/
+  @media only screen and (max-width:688px) {
+    nav{
+        padding:20px;
+        display:flex;
+    }
+    nav ul{
+       justify-content: end;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .banner{
+        margin-left: 10px;
+        
+        align-items: center;
+    }
+    .banner-description{
+        width: 400px;
+    }
+    nav img{
+        
+        width:100px; 
+       
+       
+        
+    }
+
+    .main-title{
+        
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .main, 
+    .section-title,
+     .websites, 
+     .section-title {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    }
+    .paragraph{
+        width: 100%;
+    }
+    .aside{
+        
+        
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+    .lists {
+        width: 300px;
+        height: 200px
+    }
+    .third-image img {
+        width: 100%;
+        width: 350px;
+        height: 500px;
+    }
+     .aside-sub-title{
+        width: 300px;
+        margin-left: 0;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .banner-description{
+        width: 100%;
+    }
+    .button-sub-primary{
+        margin: 0px;
+    }
+     .first-image{
+        display: none;
+     }
+     
+  }
