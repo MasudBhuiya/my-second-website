@@ -1,0 +1,196 @@
+/* Body styles */
+body{
+    align-items: center;
+    justify-content: center;
+    
+    margin: 10px 30px;
+}
+
+/*--------------------
+ header section 
+ -------------------*/
+.header{
+    background-color:antiquewhite
+    ;
+}
+nav{
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px ;
+}
+nav ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-left: 50px;
+}
+
+/*-------------------
+ header banner 
+ ------------------*/
+.banner{
+    margin-left: 600px;
+    
+    align-items: center;
+}
+.banner-title{
+    font-size: 45px;
+    font-weight: 700;
+}
+.banner-description{
+    width: 400px;
+}
+.button-primary{
+    padding:15px 25px ;
+    border: 0;
+    font-weight: 700;
+    font-size: 20px;
+    color: aliceblue;
+    height: 54px; 
+    border-radius: 5px;
+    background-color: #FF900E;
+}
+
+.first-image{
+    width:1000px; 
+    margin: 50px 240px;
+    align-items: center;
+    justify-content: center;
+    
+}
+/*----------------
+ main section 
+ ----------------*/
+ .main{
+    justify-content: space-evenly;
+    display: flex;
+    
+ }
+ .main-title{
+    gap: 25px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+ }
+
+   main img{
+    width: 300px;
+    height: 300px;
+   }
+ 
+
+ 
+ .Quick-list{
+    
+    text-align: center;
+    margin-top: 200px;
+   
+}
+.quick-list-title{
+    font-size: 45px;
+    font-weight: 700;
+}
+.span-1{
+    color: rgb(130, 126, 126);
+}
+.span-2{
+    color: #FF900E;
+}
+.paragraph{
+    width: 400px;
+}
+/*-------------------
+ aside section 
+ ------------------*/
+ 
+ .aside{
+    margin-top: 80px;
+    justify-content: space-evenly;
+    display: flex;
+ }
+ .aside-sub-title{
+    margin-left: 20px;
+    margin-bottom: 50px;
+    font-size: 35px;
+    font-weight: 700;
+ }
+ .lists{
+    margin: 30px;
+    padding: 10px;
+    padding-bottom: 2px;
+    background-color:rgb(242, 250, 251);
+}
+aside img{
+    margin-top: 50px;
+    height: 750px;
+    width: 500px;
+}
+.button-sub-primary{
+    padding:8px 25px ;
+    border: 0;
+    font-weight: 700;
+    font-size: 20px;
+    color: aliceblue;
+    height: 64px; 
+    border-radius: 5px;
+    background-color: #FF900E;
+}
+aside button{
+   
+   margin-top: 300px;
+   margin-left: 150px;
+    
+}
+.year{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+/*.......................
+ section styles 
+ ------------------------*/
+ .fourth-title{
+    margin-top: 50px;
+    text-align: center;
+ }
+ .fourth-sub-title{
+    font-size: 35px;
+    font-weight: 700;
+ }
+section img{
+    width: 50px;
+    height: 50px;
+}
+
+.section-title{
+    display: flex;
+    justify-content: space-evenly;
+}
+.Sponspors{
+    margin-top: 50px;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #FF900E;
+}
+.Sponspors:hover{
+    background-color:antiquewhite;
+    border: 1px solid blue;
+}
+/*----------------------
+ footer section 
+ ---------------------*/
+.fifth-title{
+    margin-top: 100px;
+    text-align: center;
+}
+.fifth-sub-title{
+    font-size: 35px;
+    font-weight: 700;
+}
+ .websites{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-evenly;
+ }
